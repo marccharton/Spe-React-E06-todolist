@@ -1,0 +1,20 @@
+@import 'src/styles/vars';
+
+.currency-footer {
+  color: $color-primary;
+  background: $color-white;
+
+  padding: 15px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &-title {
+    font-size: 2em;
+  }
+
+  &-value {
+    font-style: italic;
+  }
+} 

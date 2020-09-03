@@ -1,0 +1,11 @@
+.task__item {
+  margin-top: 0.2em;
+  background: transparentize(#FFF, 0.2);
+  padding: 1em;
+  
+  &--done {
+    color: grey;
+    text-decoration: line-through; 
+    background: transparentize(#FFF, 0.8);
+  }
+}

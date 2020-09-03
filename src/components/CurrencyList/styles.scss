@@ -1,0 +1,35 @@
+@import 'src/styles/vars';
+
+.currency-list {
+  background: $color-white;
+  color: $color-primary;
+  font-weight: $medium-weight;
+  text-align: left;
+  height: 300px;
+  overflow: auto;
+
+  &-title {
+    font-weight: $strong-weight;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-top: 1px solid $color-secondary;
+  }
+
+  &-item {
+    background: $color-white;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    border-bottom: 1px solid $color-secondary;
+    height: 40px;
+    line-height: 40px;
+
+    transition: background $transition-fast;
+
+    &:hover {
+      background: $color-secondary;
+      cursor: pointer;
+    }
+  }
+}

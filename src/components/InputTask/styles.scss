@@ -1,0 +1,16 @@
+@import 'src/styles/vars';
+
+.task__input {
+  padding: 1em;
+  margin-bottom: 1em;
+  
+  width:100%;
+  
+  border: none;
+
+  background-color: transparentize($color: $color-primary, $amount: 0.6);
+  color: $color-white;
+
+  line-height: 1em;
+  font-size: 2em;
+}

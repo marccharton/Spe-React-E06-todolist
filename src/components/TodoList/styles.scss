@@ -1,0 +1,15 @@
+@import 'src/styles/vars';
+
+// .text-light {
+//   font-weight: $light-weight;
+// }
+// .text-medium {
+//   font-weight: $medium-weight;
+// }
+// .text-strong {
+//   font-weight: $strong-weight;
+// }
+
+.todolist {
+  box-shadow: lighten($color-primary, 20%) 2px 2px 5px;
+}
